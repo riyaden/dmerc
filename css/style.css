@@ -4,7 +4,7 @@ ul, ol {margin: 0; padding:0;}
 p {margin: 0;}
 html, body{
   font-family: 'Ubuntu', sans-serif;
-  font-size: 100%;
+  font-size: 13px;
   background: #ffffff;
 }
 body a{
@@ -164,7 +164,7 @@ address span{
   display:inline-block;
 }
 .details_header ul li a{
-  padding:0 1em;
+  padding:0 3px;
   color:#333;
 }
 .details_header ul li a:hover{
@@ -313,7 +313,7 @@ h3.clr3{
 }
 @media (max-width: 1024px){
   .sidebar {
-    padding: 2em 17px;
+    padding: 1em 30px;
     width:20%;
   }
   .sidebar h1 {
