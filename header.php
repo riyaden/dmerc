@@ -14,29 +14,27 @@
 <div class="col-sm-3 col-md-2 sidebar">
 	<div class="sidebar_top">
 		<div class="row">
-            <div class="input-group col-md-12">
-                <input type="text" class="form-control input-sm" placeholder="Search . .">
-                <span class="input-group-btn">
-                    <button class="btn btn-info btn-sm" type="button">
-                    	<i class="glyphicon glyphicon-search"></i>
-                	</button>
-                </span>
-            </div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <h3><strong>Products</strong></h3>
         </div>
 	</div>
 	<div class="row">
 		<div class="sidebar1">
             <div class="left-navigation">
                 <ul class="list">
-                    <li><a href=""> Billing Systems</a></li>
-                    <li><a href=""> Reporting Apps</a></li>
-                    <li><a href=""> Medicaid</a></li>
-                    <li><a href=""> HIPAA Security Mandate</a></li>
-                    <li><a href=""> Rental Tracking</a></li>
-                    <li><a href=""> ERN System</a></li>
+                    <li><a href="index.php?product=01"> CMN Application</a></li>
+                    <li><a href="index.php?product=02"> 277CA Reporting</a></li>
+                    <li><a href="index.php?product=03"> POS Retail</a></li>
+                    <li><a href="index.php?product=04"> Asset Management</a></li>
+                    <li><a href="index.php?product=05"> Scanner Interface</a></li>
+                    <li><a href="index.php?product=06"> Remit Companion</a></li>
+                    <li><a href="index.php?product=07"> More ...</a></li>
                 </ul>
                 <ul class="list">
-                    <h5><strong>RELATED LINK</strong></h5>
+                    <h4><strong>&nbsp;&nbsp;RELATED LINK</strong></h4>
                     <li><a href=""> HL7 International</a></li>
                     <li><a href=""> HIPAA Standard</a></li>
                     <li><a href=""> Medicaid</a></li>
@@ -62,7 +60,7 @@
 		 <div class="details_header">
 			 <ul>
 				 <li><a href=""><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
-				 <li><a href=""><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Client Area</a></li>
+				 <!-- li><a href=""><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Client Area</a></li -->
 				 <li><a href=""><span class="glyphicon glyphicon-book" aria-hidden="true"></span>Products</a></li>
 				 <li><a href=""><span class="glyphicon glyphicon-cog" aria-hidden="true"></span>Services</a></li>
 				 <li><a href=""><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Contact & Supports</a></li>
