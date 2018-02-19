@@ -186,7 +186,6 @@
                             break;
                             
                     }
-                    echo "$title";
                     if ($product != "07")
                     {
                         if ($product == "08")
@@ -196,6 +195,7 @@
                         }
                         else
                         {
+                            echo "$title";
                             echo "  <div class=\"isi\">
                                         <img src=\"072304a.gif\" style=\"margin-bottom: 15px;\"><br>
                                         <img height=\"400\" width=\"540\" src=\"$image\" style=\"margin-bottom: 15px;\">                
