@@ -178,14 +178,29 @@
                             ";
                             $image = "06.gif";
                             break;
+                        case "08":
+                            $title = "  <div class=\"isi\">
+                                            <h4>Contact and Support: </h4>
+                                        </div>";
+                            $image = "06.gif";
+                            break;
+                            
                     }
                     echo "$title";
                     if ($product != "07")
                     {
-                        echo "  <div class=\"isi\">
-                                    <img src=\"072304a.gif\" style=\"margin-bottom: 15px;\"><br>
-                                    <img height=\"400\" width=\"540\" src=\"$image\" style=\"margin-bottom: 15px;\">                
-                                 </div>";
+                        if ($product == "08")
+                        {
+                            $html = file_get_html('http://www.dmerc.com/feedback.htm');
+                            echo $html;
+                        }
+                        else
+                        {
+                            echo "  <div class=\"isi\">
+                                        <img src=\"072304a.gif\" style=\"margin-bottom: 15px;\"><br>
+                                        <img height=\"400\" width=\"540\" src=\"$image\" style=\"margin-bottom: 15px;\">                
+                                     </div>";
+                        }
                     }
                 }
                 else
