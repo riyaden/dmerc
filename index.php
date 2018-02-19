@@ -54,7 +54,7 @@
                             break;
                         case "07":
                             $title = "  <div class=\"isi\">
-                                    <img src=\"http://dmerc.com/072304a.gif\" style=\"margin-bottom: 15px;\"><br>
+                                    <img src=\"072304a.gif\" style=\"margin-bottom: 15px;\"><br>
                                  </div>";;                        
                             $title .= "<div align=\"center\">
                                             <table border=\"0\" width=\"65%\" id=\"table1\">
@@ -183,7 +183,7 @@
                     if ($product != "07")
                     {
                         echo "  <div class=\"isi\">
-                                    <img src=\"http://dmerc.com/072304a.gif\" style=\"margin-bottom: 15px;\"><br>
+                                    <img src=\"072304a.gif\" style=\"margin-bottom: 15px;\"><br>
                                     <img height=\"400\" width=\"540\" src=\"$image\" style=\"margin-bottom: 15px;\">                
                                  </div>";
                     }
@@ -195,7 +195,7 @@
                                 <h5>Electronic Systems</h5>
                             </div>
                             <div class=\"isi\">
-                                <img src=\"http://dmerc.com/072304a.gif\" style=\"margin-bottom: 15px;\">
+                                <img src=\"072304a.gif\" style=\"margin-bottom: 15px;\">
                                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec molestie. Sed aliquam sem ut arcu. Phasellus sollicitudin. Vestibulum condimentum facilisis nulla. In hac habitasse platea dictumst. Nulla nonummy. Cras quis libero. Cras venenatis. Aliquam posuere lobortis pede. Nullam fringilla urna id leo. Praesent aliquet pretium erat. Praesent non odio. Pellentesque a magna a mauris vulputate lacinia. Aenean viverra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Aliquam lacus. Mauris magna eros, semper a, tempor et, rutrum et, tortor.</p>
                                 <br>
                                 <h5>Rental Tracking</h5>
