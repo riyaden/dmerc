@@ -31,24 +31,7 @@
                     <li><a href="index.php?product=04"> Asset Management</a></li>
                     <li><a href="index.php?product=05"> Scanner Interface</a></li>
                     <li><a href="index.php?product=06"> Remit Companion</a></li>
-                    <li><a href="index.php?product=07"> More ...</a></li>
-                </ul>
-                <ul class="list">
-                    <h4><strong>&nbsp;&nbsp;RELATED LINK</strong></h4>
-                    <li><a href=""> HL7 International</a></li>
-                    <li><a href=""> HIPAA Standard</a></li>
-                    <li><a href=""> Medicaid</a></li>
-                    <li><a href=""> ICD-9 Codes</a></li>
-                    <li><a href=""> DME</a></li>
-                    <li><a href=""> CMN</a></li>
-                    <li><a href=""> POS</a></li>
-                </ul>
-                <ul class="list">
-                    <h5><strong>NEWS / HEADLINES</strong></h5>
-                    <li><a href=""> HIPAA News</a></li>
-                    <li><a href=""> Medicaid News</a></li>
-                    <li><a href=""> ERN News</a></li>
-                    <li><a href=""> Sentracare New</a></li>
+                    <li><a href="index.php?product=07"> Complete POS</a></li>
                 </ul>
             </div>
         </div>
