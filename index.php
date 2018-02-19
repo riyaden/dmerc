@@ -191,7 +191,7 @@
                     {
                         if ($product == "08")
                         {
-                            $html = file_get_html('http://www.dmerc.com/feedback.htm');
+                            $html = file_get_contents('feedback.htm');
                             echo $html;
                         }
                         else
