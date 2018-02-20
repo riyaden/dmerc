@@ -42,12 +42,11 @@
 	 <div class="content">
 		 <div class="details_header">
 			 <ul>
-				 <li><a href=""><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
+				 <li><a href="index.php?product="><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
 				 <!-- li><a href=""><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Client Area</a></li -->
-				 <li><a href=""><span class="glyphicon glyphicon-book" aria-hidden="true"></span>Products</a></li>
-				 <li><a href=""><span class="glyphicon glyphicon-cog" aria-hidden="true"></span>Services</a></li>
+				 <li><a href="index.php?product=101"><span class="glyphicon glyphicon-book" aria-hidden="true"></span>Products</a></li>                  
 				 <li><a href="index.php?product=08"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Contact & Supports</a></li>
-				 <li><a href="index.php?product=09"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>About Us</a></li>
+				 <li><a href="index.php?product=102"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>About Us</a></li>
 			 </ul>
 		</div>
 		<div class="company">

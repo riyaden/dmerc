@@ -184,6 +184,54 @@
                                         </div>";
                             $image = "06.gif";
                             break;
+                        case "101":
+                            $title = "
+<p style=\"font-size: 24px; font-weight: bold;\">Summary of Software</p>
+<hr />
+<p style=\"font-size: 16px\">Now featuring Virtual Earth&reg;&nbsp;for Deliveries Mapping<br />
+  5010 Approved with 277 Reporting<br />
+  ERN 5010 Ready, Reporting, Self Posting<br />
+  No Preprinted Forms for Deliveries, CMN's, Invoices &amp; Many others....<br />
+  Retail POS System with Bar Coding<br />
+  Asset Tracking with Bar Coding<br />
+  Purchase Order System<br />
+  Programming for WinCE 5.0 &amp; Win Mobile 6.0 Scanners<br />
+  Custom Forms for each client<br />
+  Conversions Generally at no cost<br />
+  Clearing House Submission<br />
+After Hours Support</p>
+<hr />
+<p style=\"font-size: 16px; color: #CC3300; font-weight: bold;\">YOU CAN'T RUN YOUR BUSINESS FROM A WEBSITE APPLICATION</p>                            ";
+                            break;
+                        case "102":
+                            $title  = "<p style=\"font-family: Verdana, Arial, Helvetica, sans-serif;
+                                            font-weight: bold;
+                                            font-size: 24px;\">About Us</p>
+                                        <hr />
+                                        <p style=\"font-size: 14px\">Our  company specializes in medical billing systems and we greatly appreciate a  chance to display in our products and services. </p>
+                                        <p style=\"font-size: 14px\">Enclosed for  your review and approval are materials on Sentracare; designed specifically for  the health care industry.&nbsp; The enclosed  materials will demonstrate some of the many features of the Sentracare system. <br />
+                                        </p>
+                                        <p style=\"    font-size: 16px;
+                                            font-weight: bold;\">Highlights:</p>
+                                        <ol>
+                                          <li style=\"font-size: 14px\">Fully HIPAA compliant in all DMERC Regions.&nbsp; Both in electronic transmission and security  matrix.</li>
+                                          <li style=\"font-size: 14px\">We do not offer modules or add-on&rsquo;s to our system. Our  product is all inclusive and all updates, Non-Medicare and Medicare (including  HIPAA), are included in our support fees. No Additional/Hidden Costs.</li>
+                                          <li style=\"font-size: 14px\">Our systems are compatible with <em><u>Windows , 2000, XP, NT, 2003/08/10 Server, Win7,10</u></em>.</li>
+                                          <li style=\"font-size: 14px\">Support is unsurpassed. All software companies will  offer you technical support for a monthly maintenance fee. Unlike others, we  provide support in minutes, not days!</li>
+                                        </ol>
+                                        <p style=\"font-size: 14px\">Datalogic  breaks its support into three categories:</p>
+                                        <ol class=\"style5\">
+                                          <li><u>Technical Support</u>: We offer the same technical  support as all other companies, with one exception. Our turn around time on  average is less than 2 hours, if not immediate.</li>
+                                          <li><u>Informational Support</u>: We offer what no other  company offers. Our industry experts answer questions concerning billing,  Medicare regulations, Rejections, coding questions etc&hellip;. For all our clients.  We do not believe you will find this kind of support from other companies.</li>
+                                          <li><u>Hours</u>: We are available 24/7 for all  emergencies. <em><u>All clients have access  to support via cell or home phone numbers so that if you are outside our time  zone, your support time is not diminished. We are available to you 9am &ndash; 9pm  EST.</u></em></li>
+                                        </ol>
+                                        <p style=\"font-size: 14px\"><strong>We encourage you to check all references for feedback on  our software and support&nbsp; functions.</strong></p>
+                                        <p style=\"font-size: 14px\">Again,  thank you for your interest in our products and services. We look forward to  having a mutually beneficial business relationship and serving as the quality  partner in your future business success. For an extensive look at Datalogic  Software, visit our web site at http://www.sentracare.com or  http://www.dmerc.com&nbsp; &amp;<em> call us at (941) 714-0542 to arrange for an  on-line demo of our software.</em></p>
+                                        <p style=\"font-family: Verdana, Arial, Helvetica, sans-serif;
+                                            font-size: 14px;\">&nbsp;</p>                            
+                            ";
+                            break;    
+                        
                             
                     }
                     if ($product != "07")
@@ -196,10 +244,13 @@
                         else
                         {
                             echo "$title";
-                            echo "  <div class=\"isi\">
-                                        <img src=\"072304a.gif\" style=\"margin-bottom: 15px;\"><br>
-                                        <img height=\"400\" width=\"540\" src=\"$image\" style=\"margin-bottom: 15px;\">                
-                                     </div>";
+                            if ($product != "101" && $product != "102")
+                            {
+                                echo "  <div class=\"isi\">
+                                            <img src=\"072304a.gif\" style=\"margin-bottom: 15px;\"><br>
+                                            <img height=\"400\" width=\"540\" src=\"$image\" style=\"margin-bottom: 15px;\">                
+                                         </div>";
+                            }
                         }
                     }
                 }
