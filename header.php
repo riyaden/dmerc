@@ -49,4 +49,4 @@
 				 <li><a href="index.php?product=102"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>About Us</a></li>
 			 </ul>
 		</div>
-		<div class="company">
+		<div class="company" style="margin-left: 30px">
