@@ -264,10 +264,10 @@ After Hours Support</p>
                                     <td>&nbsp;</td>
                                 </tr>                                
                                 <tr>
-                                    <td style=\"font-size:18px; color:red\">
+                                    <td style=\"font-size:18px; color:red\" align=\"center\">
                                     <b>
                                     Don't mold you business around software<br>
-                                    Let us mold our software fur your business
+                                    Let us mold our software to your business
                                     </b>
                                     </td>
                                 </tr>
