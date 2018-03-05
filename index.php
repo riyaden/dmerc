@@ -261,6 +261,20 @@ After Hours Support</p>
                                     <td><img border=\"0\" src=\"./here_files/hereiswhat.gif\" width=\"283\" height=\"118\"></td>
                                 </tr>
                                 <tr>
+                                    <td>&nbsp;</td>
+                                </tr>                                
+                                <tr>
+                                    <td style=\"font-size:18px; color:red\">
+                                    <b>
+                                    Don't mold you business around software<br>
+                                    Let us mold our software our your business
+                                    </b>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                </tr>                                
+                                <tr>
                                     <td>
                                     <p class=\"MsoNormal\" align=\"justify\"><b><font face=\"Arial\" color=\"#0000FF\" size=\"2\">In a rather 
                                     complex world, Datalogic takes a decidedly simplistic view of 
