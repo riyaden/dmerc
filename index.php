@@ -267,7 +267,7 @@ After Hours Support</p>
                                     <td style=\"font-size:18px; color:red\">
                                     <b>
                                     Don't mold you business around software<br>
-                                    Let us mold our software our your business
+                                    Let us mold our software fur your business
                                     </b>
                                     </td>
                                 </tr>
